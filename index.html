@@ -1,206 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>The Today</title>
-  <meta name="description" content="The largest newspaper always with you">
+	<meta charset="UTF-8">
+	<title>The Today</title>
+	<meta name="description" content="The largest newspaper always with you">
+	<link rel="stylesheet" href="src/styles.css">
 </head>
 <body>
 <header id="main-header" role="banner">
-  <h1>The Today</h1>
-  <nav role="navigation" class="nav">
-    <section class="nav-logo">
-      <a class="nav-logo logo-link" href="#">
-        <img class="nav-logo logo-img" src="" alt="The Today">
-      </a>
-    </section>
-    <section class="nav-content">
-      <ul>
-        <li><a href="#" title="Today's sections" class="nav nav-item">Today's sections</a></li>
-        <li><a href="#" title="Past six-days" class="nav nav-item">Past six days</a></li>
-      </ul>
-    </section>
-    <section class="nav-inner">
-      <ul>
-        <li><a href="#" title="Today+" class="nav nav-item">Today+</a></li>
-        <li><a href="#" title="Subscribe" class="nav nav-item">Subscribe</a></li>
-        <li><a href="#" title="Biking Tours" class="nav nav-item">Log in</a></li>
-      </ul>
-    </section>
-  </nav>
-  <section class="main-logo">
-    <a class="main-logo logo-link" href="#">
-      <img class="main-logo logo-img" src="" alt="The Today">
-    </a>
-  </section>
+	<div class="container">
+		<h1 hidden>The Today</h1>
+		<nav role="navigation" class="nav">
+			<div class="nv-logo-content">
+				<section class="nav-logo">
+					<a class="nav-logo logo-link" href="#">
+						<p class="logo-text">TODAY</p>
+					</a>
+				</section>
+				<section class="nav-content">
+					<a href="#" title="Today's sections" class="nav-item">Today's sections</a>
+					<a href="#" title="Past six-days" class="nav-item">Past six days</a>
+				</section>
+			</div>
+			<section class="nav-inner">
+				<a href="#" title="Today+" class="nav-item">Today+</a>
+				<a href="#" title="Subscribe" class="nav-item">Subscribe</a>
+				<a href="#" title="Biking Tours" class="nav-item">Log in</a>
+			</section>
+		</nav>
+	</div>
 </header>
+<section class="main-logo">
+	<div class="container">
+		<a class="main-logo logo-link" href="#">
+			<img class="main-logo logo-img" src="./src/img/logo.svg" alt="The Today">
+		</a>
+	</div>
+</section>
 <main class="content-bar">
-  <article class="content-bar category">
-    <header>
-      <h2 class="content-bar news-sphere">News</h2>
-      <p>
-        <a href="#">In the news</a>
-      </p>
-    </header>
-    <div class="content-bar hot-news">
-      <article role="article">
-        <section class="article-media">
-          <a class="article-media media-link" href="#">
-            <img class="article-media media-img" src="" alt="Read the article">
-          </a>
-        </section>
-        <section class="article-content">
-          <h3>Derorah Ross</h3>
-          <time datetime="2020-03-17" class="news-pubdate">
-            posted on March 17<sup>th</sup>, 2020
-          </time>
-          <p>Need some reasons to be cheerful? Have some of mine . . .</p>
-        </section>
-      </article>
-      <article role="article">
-        <section class="article-media">
-          <a class="article-media media-link" href="#">
-            <img class="article-media media-img" src="" alt="Read the article">
-          </a>
-        </section>
-        <section class="article-content">
-          <h3>Derorah Ross</h3>
-          <time datetime="2020-03-17" class="news-pubdate">
-            posted on March 17<sup>th</sup>, 2020
-          </time>
-          <p>Need some reasons to be cheerful? Have some of mine . . .</p>
-        </section>
-      </article>
-      <article role="article">
-        <section class="article-media">
-          <a class="article-media media-link" href="#">
-            <img class="article-media media-img" src="" alt="Read the article">
-          </a>
-        </section>
-        <section class="article-content">
-          <h3>Derorah Ross</h3>
-          <time datetime="2020-03-17" class="news-pubdate">
-            posted on March 17<sup>th</sup>, 2020
-          </time>
-          <p>Need some reasons to be cheerful? Have some of mine . . .</p>
-        </section>
-      </article>
-      <article role="article">
-        <section class="article-media">
-          <a class="article-media media-link" href="#">
-            <img class="article-media media-img" src="" alt="Read the article">
-          </a>
-        </section>
-        <section class="article-content">
-          <h3>Derorah Ross</h3>
-          <time datetime="2020-03-17" class="news-pubdate">
-            posted on March 17<sup>th</sup>, 2020
-          </time>
-          <p>Need some reasons to be cheerful? Have some of mine . . .</p>
-        </section>
-      </article>
-    </div>
-    <div class="article-content-heading">
-      <article>
-        <a class="article-header header-link" href="#">
-          <h3>Prime minister to chair Cobra meeting on London shutdown</h3>
-        </a>
-        <a class="article-media media-link" href="#">
-          <img class="article-media media-img" src="" alt="Read the article">
-        </a>
-      </article>
-      <article>
-        <a class="article-media media-link" href="#">
-          <img class="article-media media-img" src="" alt="Read the article">
-        </a>
-        <h4 class="article-category">CORONAVIRUS | Q&A</h4>
-        <h3>Police can quarantine you for six weeks under emergency laws</h3>
-        <p>Police will have the power to detain and quarantine people for up to six weeks under new emergency laws
-          designed to stop the spread of coronavirus. People will be committing a crime and will face fines of up to
-          £1,000 if they fail to comply, attempt to abscond, provide misleading information or obstruct health...</p>
-      </article>
-    </div>
-    <div class="article-content-layout">
-      <article>
-        <a class="article-media media-link" href="#">
-          <img class="article-media media-img" src="" alt="Read the article">
-        </a>
-        <h4 class="article-category">CORONAVIRUS | Q&A</h4>
-        <h3>Police can quarantine you for six weeks under emergency laws</h3>
-      </article>
-      <article>
-        <a class="article-media media-link" href="#">
-          <img class="article-media media-img" src="" alt="Read the article">
-        </a>
-        <h4 class="article-category">CORONAVIRUS | Q&A</h4>
-        <h3>Police can quarantine you for six weeks under emergency laws</h3>
-      </article>
-      <article>
-        <a class="article-media media-link" href="#">
-          <img class="article-media media-img" src="" alt="Read the article">
-        </a>
-        <h4 class="article-category">CORONAVIRUS | Q&A</h4>
-        <h3>Police can quarantine you for six weeks under emergency laws</h3>
-      </article>
-      <article>
-        <a class="article-media media-link" href="#">
-          <img class="article-media media-img" src="" alt="Read the article">
-        </a>
-        <h4 class="article-category">CORONAVIRUS | Q&A</h4>
-        <h3>Police can quarantine you for six weeks under emergency laws</h3>
-      </article>
-      <article>
-        <a class="article-media media-link" href="#">
-          <img class="article-media media-img" src="" alt="Read the article">
-        </a>
-        <h4 class="article-category">CORONAVIRUS | Q&A</h4>
-        <h3>Police can quarantine you for six weeks under emergency laws</h3>
-      </article>
-      <article>
-        <a class="article-media media-link" href="#">
-          <img class="article-media media-img" src="" alt="Read the article">
-        </a>
-        <h4 class="article-category">CORONAVIRUS | Q&A</h4>
-        <h3>Police can quarantine you for six weeks under emergency laws</h3>
-      </article>
-      <article>
-        <a class="article-media media-link" href="#">
-          <img class="article-media media-img" src="" alt="Read the article">
-        </a>
-        <h4 class="article-category">CORONAVIRUS | Q&A</h4>
-        <h3>Police can quarantine you for six weeks under emergency laws</h3>
-      </article>
-    </div>
-    <aside class="article-load-more">
-      <button type="button">
-        Show more
-      </button>
-    </aside>
-  </article>
+	<div class="container">
+		<article class="content-bar-category">
+			<header>
+				<h2 class="content-bar-news-sphere">News</h2>
+				<p>
+					<a href="#">In the news</a>
+				</p>
+			</header>
+			<div class="content-bar-hot-news">
+				<article role="article" class="article-media-content">
+					<section class="article-media">
+						<a class="article-media media-link" href="#">
+							<img class="article-media media-img" src="src/img/news.jpeg" alt="Read the article">
+						</a>
+					</section>
+					<section class="article-content">
+						<h3>Derorah Ross</h3>
+						<time datetime="2020-03-17" class="news-pubdate">
+							posted on March 17<sup>th</sup>, 2020
+						</time>
+						<p class="article-media-text">Need some reasons to be cheerful? Have some of mine..</p>
+					</section>
+				</article>
+				<article role="article" class="article-media-content">
+					<section class="article-media">
+						<a class="article-media media-link" href="#">
+							<img class="article-media media-img" src="src/img/news.jpeg" alt="Read the article">
+						</a>
+					</section>
+					<section class="article-content">
+						<h3>Derorah Ross</h3>
+						<time datetime="2020-03-17" class="news-pubdate">
+							posted on March 17<sup>th</sup>, 2020
+						</time>
+						<p class="article-media-text">Need some reasons to be cheerful? Have some of mine..</p>
+					</section>
+				</article>
+			</div>
+			<div class="article-content-heading">
+				<article class="news-article">
+					<a class="article-header header-link" href="#">
+						<h3>Prime minister to chair Cobra meeting on London shutdown</h3>
+					</a>
+					<a class="article-media" href="#">
+						<img class="article-heading-media" src="src/img/news.jpeg" alt="Read the article">
+					</a>
+				</article>
+				<article class="news-article">
+					<a class="article-media" href="#">
+						<img class="article-heading-content" src="src/img/news.jpeg" alt="Read the article">
+					</a>
+					<h4 class="article-category">CORONAVIRUS | Q&A</h4>
+					<h3>Police can quarantine you for six weeks under emergency laws</h3>
+					<p>Police will have the power to detain and quarantine people for up to six weeks under new emergency laws
+						designed to stop the spread of coronavirus. People will be committing a crime and will face fines of up to
+						£1,000 if they fail to comply, attempt to abscond, provide misleading information or obstruct health...</p>
+				</article>
+			</div>
+			<div class="article-content-layout">
+				<article class="article-content-group">
+					<a class="article-media media-link" href="#">
+						<img class="article-media-group" src="src/img/news.jpeg" alt="Read the article">
+					</a>
+					<h5 class="article-category">CORONAVIRUS | Q&A</h5>
+					<h4 class="article-layout-header">Police can quarantine you for six weeks under emergency laws</h4>
+				</article>
+				<article class="article-content-group">
+					<a class="article-media media-link" href="#">
+						<img class="article-media-group" src="src/img/news.jpeg" alt="Read the article">
+					</a>
+					<h5 class="article-category">CORONAVIRUS | Q&A</h5>
+					<h4 class="article-layout-header">Police can quarantine you for six weeks under emergency laws</h4>
+				</article>
+				<article class="article-content-group">
+					<a class="article-media media-link" href="#">
+						<img class="article-media-group" src="src/img/news.jpeg" alt="Read the article">
+					</a>
+					<h5 class="article-category">CORONAVIRUS | Q&A</h5>
+					<h4 class="article-layout-header">Police can quarantine you for six weeks under emergency laws</h4>
+				</article>
+				<article class="article-content-group">
+					<a class="article-media media-link" href="#">
+						<img class="article-media-group" src="src/img/news.jpeg" alt="Read the article">
+					</a>
+					<h5 class="article-category">CORONAVIRUS | Q&A</h5>
+					<h4 class="article-layout-header">Police can quarantine you for six weeks under emergency laws</h4>
+				</article>
+			</div>
+			<aside class="article-load-more">
+				<button type="button" class="button-article-load-more">
+					Show more
+				</button>
+			</aside>
+		</article>
+	</div>
 </main>
 <footer>
-  <div class="footer-contacts">
-    <p class="footer-to-top">
-      <a href="#">Return to top</a>
-    </p>
-    <p>
-      <a href="tel://835-777-6538" title="Give us a call">T: 835.777.6538</a>
-    </p>
-    <p>
-      <a href="mailto:info@today.org" title="Drop us a line">info@today.org</a>
-    </p>
-  </div>
-  <div class="footer-address">
-    <p>
-      <small> &copy; Today Newspapers Limited 2020. | Please read our <a href="#">terms of use</a>
-      </small>
-    </p>
-    <p>
-      <b>Today</b>
-    </p>
-    <p>7629 Aridial Street<br>
-      Nothiam, BA 87420</p>
-  </div>
+	<div class="container">
+		<div class="footer-contacts">
+			<p class="footer-to-top">
+				<a href="#">Return to top</a>
+			</p>
+			<p>
+				<a href="tel://835-777-6538" title="Give us a call">T: 835.777.6538</a>
+			</p>
+			<p>
+				<a href="mailto:info@today.org" title="Drop us a line">info@today.org</a>
+			</p>
+		</div>
+		<div class="footer-address">
+			<p>
+				<small> &copy; Today Newspapers Limited 2020. | Please read our <a href="#">terms of use</a>
+				</small>
+			</p>
+			<p>
+				<b>Today</b>
+			</p>
+			<p>7629 Aridial Street<br>
+				Nothiam, BA 87420</p>
+		</div>
+	</div>
 </footer>
 </body>
 </html>
